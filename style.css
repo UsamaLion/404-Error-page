@@ -85,64 +85,34 @@ footer, .foot{
     text-align: center;
     color: #4d4c4c;
 }
-/* Create a resposive for mobile */
+/*Creating a responsive design from 768px to smaller */
+/*everything should be in line*/
 @media (max-width: 768px) {
     nav {
-        position: absolute;
-        width: 133px;
-        height: 25px;
-        left: 77px;
-        top: 40px;
-    }
-    nav , p {
-        font-family: 'Inconsolata';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 25px;
-        letter-spacing: -0.08em;
-        text-transform: uppercase;
-    }
-    main {
-        display: flex;
-        margin: 10% 10% 10% 10%;
-    }
-    main, .text {
-        padding-left: 100px;
-    }
-    main, .text, h1 {
-        font-family: 'Space Mono awesome';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 50px;
-        letter-spacing: -0.035em;
-    }
-    main, .text, p {
-        font-family: 'Space Mono';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 36px;
-        letter-spacing: -0.035em;
-    }
-    main .text button {
-        width: 133px;
-        height: 50px;
-        left: 77px;
-        top: 710px;
-        background: #333333;
-        border: 1px solid #333333;
-        box-sizing: border-box;
-    }
-    footer, .foot{
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 17px;
-        /* identical to box height */
+        position: static;
+        width: auto;
+        height: auto;
+        left: auto;
+        top: auto;
         text-align: center;
-        color: #4d4c4c;
+        margin-bottom: 20px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        margin: 10% auto;
+    }
+
+    main .text {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    main .text button {
+        position: relative;
+        left: auto;
+        top: auto;
+        margin-top: 20px;
     }
 }
