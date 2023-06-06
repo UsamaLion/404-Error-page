@@ -70,5 +70,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://timely-entremet-e1a305.netlify.app/)
-- GitHub [@your-username](UsamaLion)
+- Website [Project veiw](https://timely-entremet-e1a305.netlify.app/)
+- GitHub [UsamaLion](https://github.com/UsamaLion)
